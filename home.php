@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Hug The world</title>
+  <script src="https://kit.fontawesome.com/0a786c01b2.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="css/home.css">
+</head>
+
+<body>
+  <script>
+  document.body.style.backgroundColor = "#dbdeb8";
+  let ngjyrat = ['#6b64b3', '#798582', '#45edc9', '#5ab067'];
+  let i = 0;
+  let ndryshoNgjyrat = () => {
+    document.body.style.backgroundColor = ngjyrat[i];
+    if (i == (ngjyrat.length)) {
+      i = 0;
+    }
+    i++;
+  }
+  setInterval(ndryshoNgjyrat, 2000);
+  </script>
+
+  <?php 
+  require_once 'header.php';
+  ?>
+
+  <div class="prapavija">
+    <div class="prapavija1">
+    </div>
+  </div>
+
+  <div class="klasa1">
+    <p>Start your journey</p>
+    <h2>TAKE THE CHEAPEST AND THE BEST TRAVEL</h2>
+    <div class="linqe">
+      <a class="simple" href="form.php">Get started</a>
+      <a class="border" href="destination.php">Learn More</a>
+    </div>
+  </div>
+
+  <div class="Te_dhena">
+    <div class="one">
+      <h3>New to the Website?</h3>
+      <h6>You can find our cheapest trip up to $250. And you will have the highest security</h6>
+      <p>Our company helps you reunite with your family members who are abroad, it halps you to reach your destination
+        at anytime, anywhere.</p>
+      <a href="form.php">Take your trip now</a>
+    </div>
+    <div class="two">
+      <h3>Working hours</h3>
+      <br>
+      <h5>Sunday: Closed</h5>
+      <br>
+      <h5>Monday - Thursday</h5>
+      <p>7:00 AM - 10:00 PM</p>
+      <br>
+      <h5>Friday - Saturday</h5>
+      <p>8:00 AM - 8:00 PM</p>
+    </div>
+  </div>
+
+  <div class="klasa2">
+    <div class="about">
+      <h2>Traveling gives you perspective</h2>
+      <p>Meeting people from other cultures will teach you that the way you’ve been looking at the world isn’t the way
+        everybody else does. In fact, your point-of-view might have some major blind spots. Seeing the world for
+        yourself will improve your vision and your grip on reality</p>
+      <br>
+      <br>
+      <p>If you’re between jobs, schools, kids, or relationships, around the world travel can be a perfect way to move
+        from one of these life stages into your next great adventure.</p>
+    </div>
+
+    <div class="travel">
+      <div class="team1">
+        <div class="img">
+          <img src="images/udhetim.png">
+        </div>
+        <div class="teamDetails">
+          <div class="name">
+            <h4>Safety first</h4>
+            <i class="fas fa-user-shield" aria-hidden="true"></i>
+          </div>
+          <div class="pro">
+            <p>travel safe</p>
+            <i class="fas fa-plane-departure"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="team1">
+        <div class="img">
+          <img src="images/rreth_botes.jpg">
+        </div>
+        <div class="teamDetails">
+          <div class="name">
+            <h4>Enjoy Trip</h4>
+            <i class="fas fa-suitcase-rolling"></i>
+          </div>
+          <div class="pro">
+            <p>Best services</p>
+            <i class="fas fa-concierge-bell"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="class">
+    <p class="paragraph">Get our cheapest flights</p>
+    <h2 class="h2">The best and the cheapest</h2>
+    <div class="classMenu">
+      <div class="team1">
+        <div class="img">
+          <img src="images/germany.jpg">
+        </div>
+        <div class="teamDetails">
+          <div class="name">
+            <div class="nameDetails">
+              <h4>Germany</h4>
+              <p>Miltenberg - <span>Germany</span></p>
+            </div>
+            <div class="num">
+              <h5>$250</h5>
+            </div>
+          </div>
+          <div class="pro">
+            <p>The quaint old center of Miltenberg in Bavaria is quite typical of the many medieval towns dotted around
+              Germany.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="team1">
+        <div class="img">
+          <img src="images/austria.jpg">
+        </div>
+        <div class="teamDetails">
+          <div class="name">
+            <div class="nameDetails">
+              <h4>Austria</h4>
+              <p>Hallstatt - <span>Austria</span></p>
+            </div>
+            <div class="num">
+              <h5>$280</h5>
+            </div>
+          </div>
+          <div class="pro">
+            <p>Austria's most picture-perfect town is set against a lake on one side with impressive limestone Hoher
+              Dachstein mountain.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="team1">
+        <div class="img">
+          <img src="images/switzerland.jpg">
+        </div>
+        <div class="teamDetails">
+          <div class="name">
+            <div class="nameDetails">
+              <h4>Switzerland</h4>
+              <p>Matterhorn - <span>Switzerland</span></p>
+            </div>
+            <div class="num">
+              <h5>$300</h5>
+            </div>
+          </div>
+          <div class="pro">
+            <p>Autumn is a magical time to photograph the almighty Matterhorn mountain reflected on the mirror-like
+              surface of Stellisee Lake.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="kontakt">
+    <div class="form">
+      <h2>Feel free to ask anything</h2>
+      <div class="submit">
+        <input type="text" name="" placeholder="name">
+        <input type="email" name="" placeholder="email">
+        <textarea placeholder="Message"></textarea>
+        <a href="#">Send message</a>
+      </div>
+    </div>
+    <div class="harta">
+      <h2>Where you can find us</h2>
+      <p><i class="fas fa-map-marker-alt"></i> 42.6026° N, 20.9030° E - The Republic of Kosovo, KOSOVO</p>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26292.324209542523!2d20.70990406128685!3d42.78888340976849!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13534009514dd657%3A0xb71b1dea8ed7cbf6!2sKosovo!5e0!3m2!1sen!2s!4v1607794764498!5m2!1sen!2s"
+        width="1290" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+        tabindex="0"></iframe>
+    </div>
+  </div>
+  <div class="divi22">
+    <fieldset>
+      <legend>Te jepen te dhenat te cilat doni ti ruani</legend>
+      <input id="inpKey" type="text" placeholder="enter key">
+      <input id="inpValue" type="text" placeholder="enter value">
+      <button type="button" id="btnInsert">Insert Data</button>
+      <button type="button" id="btnremove">Remove Data</button>
+      <button type="button" id="btnclear">Clear Data</button>
+    </fieldset>
+    <fieldset>
+      <legend>Te dhenat e ruajtura shfaqen ketu</legend>
+      <div id="IsOutput">
+
+      </div>
+    </fieldset>
+    <script type="text/javascript">
+    const inpKey = document.getElementById("inpKey");
+    const inpValue = document.getElementById("inpValue");
+    const btnInsert = document.getElementById("btnInsert");
+    const IsOutput = document.getElementById("IsOutput");
+    const btnremove = document.getElementById("btnremove");
+    const btnclear = document.getElementById("btnclear");
+
+    btnclear.onclick = function() {
+      localStorage.clear();
+      location.reload();
+
+    };
+
+    btnInsert.onclick = function() {
+      const key = inpKey.value;
+      const value = inpValue.value;
+
+      if (key && value) {
+        localStorage.setItem(key, value);
+        location.reload();
+      }
+    };
+    btnremove.onclick = function() {
+      const key = inpKey.value;
+      const value = inpValue.value;
+      if (key && value) {
+        localStorage.removeItem(key, value);
+        location.reload();
+      }
+    };
+
+    for (let i = 0; i < localStorage.length; i++) {
+      const key = localStorage.key(i);
+      const value = localStorage.getItem(key);
+
+      IsOutput.innerHTML += `${key}:${value}<br/>`;
+    }
+    </script>
+  </div>
+
+  <?php 
+  require_once 'footer.php';
+  ?>
+
+  <script src="js/index.js"></script>
+</body>
+
+</html>
